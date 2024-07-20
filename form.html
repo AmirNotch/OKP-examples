@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+    <style>
+        /* Стили для thead */
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+    
+        /* Стили для tbody */
+        tbody {
+            background-color: #f2f2f2;
+        }
+    
+        /* Стили для строк при наведении */
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>свяжитесь со мной</h1>
+        <div>
+            <label for="email">E-mail*</label>
+            <input type="email" name="Email" id="email">
+
+        </div>
+
+        <div>
+            <label for="telegram">Telegram*</label>
+            <input type="number"name="telegram" id="telegram">
+        </div>
+
+        <div>
+            <label for="theme">Тема</label>
+            <select name="theme" id="theme">
+                <optgroup label="IT">
+                  <option>Основы ОКП</option>
+                </optgroup>
+                <optgroup label="UI-UX">
+                  <option>Основы Figma</option>
+                  <option>Основы дизайна</option>
+                </optgroup>
+                <optgroup label="Аналитика">
+                  <option selected>Основы Excel</option>
+                  <option>Основы Python</option>
+                </optgroup>
+              </select>
+        </div>
+        <div>
+            <label for="comment">Комментарии</label>
+            <textarea name="comment" id="comment" rows="5" cols="35"></textarea>
+        </div>
+        <div>
+            <button type="submit" style="background-color: blue; color: white;">Отправить</button>
+        </div>
+    </form>
+</body>
+</html> 

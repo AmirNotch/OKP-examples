@@ -1,0 +1,30 @@
+.firstTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#firstTHead {
+    background-color: #6495ED;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+}
+
+#firstTBody {
+    background-color: #F0F8FF;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #c40202;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
