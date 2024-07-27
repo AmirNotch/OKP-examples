@@ -21,4 +21,4 @@ const human = name + " " + surname;
 
 console.log(human);
 
-
+    
